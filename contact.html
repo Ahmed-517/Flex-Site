@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header class="sticky">
+        <a href="index.html" class="logo">Flex<span>Cribe</span></a>
+        <!-- Toggle Menu -->
+        <div class="menuToggle" onclick="toggleMenu();">
+
+        </div>
+        <!-- Navigation -->
+        <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <!-- <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+            <li><a href="what.html" onclick="toggleMenu();">What We Do</a></li>
+            <li><a href="experience.html" onclick="toggleMenu();">Experience</a></li>
+            <li><a href="contact.html" onclick="toggleMenu();">Contact Us</a></li>
+            <li><a href="join.html" onclick="toggleMenu();">Join Us</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="title">
+            <h2 class="titleText">
+                <span>C</span>ontact Us
+            </h2>
+            <div class="centerContent">
+                <p>At FlexCribe, we believe in the power of connection. That's why we are here to provide you
+                    with the support you need to succeed. Whether you are looking for help with transcribing,
+                    performing tasks, feeding artificial intelligence, or anything else, we are here to provide the
+                    expertise and resources you need to get the job done.</p>
+                <p>Whether you are looking for information about our services, have a question about a
+                    project, or simply want to connect with us, we are here to help. Our friendly and
+                    knowledgeable staff are available to answer any questions you may have and provide you
+                    with the support you need to succeed.</p>
+                <p>So don't wait! Get in touch with us today and see how we can help take your business to
+                    the next level. We look forward to hearing from you!</p>
+                    <p class="contactEmail">
+                    Email: <span>flexcribe@gmail.com</span>
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Copyright -->
+        <div class="copyrightText">
+            <p>Copyright &copy; 2020 Ahmed Gamal</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript">
+
+        // window.addEventListener('scroll', function(){
+        //     const header = document.querySelector('header');
+        //     header.classList.toggle("sticky", window.scrollY > 0);
+        // });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>

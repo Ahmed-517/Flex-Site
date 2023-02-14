@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header class="sticky">
+        <a href="index.html" class="logo">Flex<span>Cribe</span></a>
+        <!-- Toggle Menu -->
+        <div class="menuToggle" onclick="toggleMenu();">
+
+        </div>
+        <!-- Navigation -->
+        <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <!-- <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+            <li><a href="what.html" onclick="toggleMenu();">What We Do</a></li>
+            <li><a href="experience.html" onclick="toggleMenu();">Experience</a></li>
+            <li><a href="contact.html" onclick="toggleMenu();">Contact Us</a></li>
+            <li><a href="join.html" onclick="toggleMenu();">Join Us</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="title">
+            <h2 class="titleText">
+                <span>E</span>xperience
+            </h2>
+            <div class="centerContent">
+
+            
+            <p>At FlexCribe, we are proud to bring years of experience to the table, having worked with a
+                variety of languages and platforms, including French, Spanish, German, English, Russian,
+                Arabic, Italian, Urdu, Pashto, Punjabi, and Persian. Our team has extensive experience
+                working on platforms such as Appen, Loft, ASR, WorkPen, and Shujiajia, delivering high-
+                quality results that meet the specific needs of our clients.</p>
+            <p>We have a deep understanding of the nuances and intricacies of each language, and our
+                personnel are equipped to handle even the most complex projects with ease. Our
+                commitment to excellence is evident in every project we undertake, and our results speak
+                for themselves.</p>
+            <p>Whether you are looking for help with transcribing, performing tasks, or feeding artificial
+                intelligence, we have the expertise and resources necessary to deliver results that meet
+                your specific needs. Our goal is to provide you with a seamless and stress-free experience,
+                so you can focus on growing your business.</p>
+            <p>We invite you to leverage our years of experience and see the difference that working with
+                a seasoned professional can make. Contact us today to learn more about how we can help
+                drive your business forward.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Copyright -->
+        <div class="copyrightText">
+            <p>Copyright &copy; 2020 Ahmed Gamal</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript">
+
+        // window.addEventListener('scroll', function(){
+        //     const header = document.querySelector('header');
+        //     header.classList.toggle("sticky", window.scrollY > 0);
+        // });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>

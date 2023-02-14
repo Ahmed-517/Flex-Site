@@ -90,7 +90,7 @@ header .navigation li a:hover {
     align-items: center;
     /* Background */
     /* background: url(images/bg.jpg); */
-    background:  url(images/Wireless\ Retailers\ Search\ for\ Digital\ Solutions\ to\ Engage\ Consumers\ Post-Pandemic\ -\ T-ROC.jpg);
+    background:  url(img/background.jpg);
     background-size: cover;
 }
 .bannerSpan {
@@ -320,6 +320,12 @@ section .row .col50 .imgBx img {
 .contact {
     background: url(images/bg3.jpg);
     background-size: cover;
+}
+.contact .getP {
+    color: #111;
+    width: 60%;
+    margin: 20px;
+
 }
 .contactForm {
     padding: 75px 50px;

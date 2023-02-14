@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header class="sticky">
+        <a href="index.html" class="logo">Flex<span>Cribe</span></a>
+        <!-- Toggle Menu -->
+        <div class="menuToggle" onclick="toggleMenu();">
+
+        </div>
+        <!-- Navigation -->
+        <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <!-- <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+            <li><a href="what.html" onclick="toggleMenu();">What We Do</a></li>
+            <li><a href="experience.html" onclick="toggleMenu();">Experience</a></li>
+            <li><a href="contact.html" onclick="toggleMenu();">Contact Us</a></li>
+            <li><a href="join.html" onclick="toggleMenu();">Join Us</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="title">
+            <h2 class="titleText">
+                <span>W</span>hat We Do
+            </h2>
+            <div class="centerContent">
+            <p>Welcome to FlexCribe, where we are dedicated to providing top-notch online work and
+                transcription services to help your business grow. Our team of experienced professionals
+                are equipped with the necessary skills and resources to handle a wide range of projects,
+                including transcribing, performing tasks, and feeding artificial intelligence.</p>
+            <p>
+                We understand the importance of high-quality work, and our commitment to excellence is
+evident in every project we undertake. Our extensive experience in this field has allowed us
+to develop a deep understanding of the requirements of various industries and we are
+confident that we can deliver results that meet your specific needs
+            </p>
+
+            <p>
+                We are equipped to handle projects in multiple languages, including French, Spanish,
+German, English, Russian, Arabic, Italian, Urdu, Pashto, Punjabi, and Persian. Our resources
+and personnel are designed to work efficiently, delivering high-quality results in a timely
+manner.
+            </p>
+
+            <p>
+                Our goal is to empower your business by providing the support it needs to succeed. We
+invite you to partner with us and experience the high-quality work and personalized service
+that sets us apart. Let us help you achieve your goals and take your business to the next
+level.
+            </p>
+
+            <p>
+                Contact us today to learn more about how we can help your business thrive.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Copyright -->
+        <div class="copyrightText">
+            <p>Copyright &copy; 2020 Ahmed Gamal</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript">
+
+        // window.addEventListener('scroll', function(){
+        //     const header = document.querySelector('header');
+        //     header.classList.toggle("sticky", window.scrollY > 0);
+        // });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>

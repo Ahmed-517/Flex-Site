@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header class="sticky">
+        <a href="index.html" class="logo">Flex<span>Cribe</span></a>
+        <!-- Toggle Menu -->
+        <div class="menuToggle" onclick="toggleMenu();">
+
+        </div>
+        <!-- Navigation -->
+        <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <!-- <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+            <li><a href="what.html" onclick="toggleMenu();">What We Do</a></li>
+            <li><a href="experience.html" onclick="toggleMenu();">Experience</a></li>
+            <li><a href="contact.html" onclick="toggleMenu();">Contact Us</a></li>
+            <li><a href="join.html" onclick="toggleMenu();">Join Us</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="title">
+            <h2 class="titleText">
+                <span>J</span>oin Us
+            </h2>
+            <div class="centerContent">
+                <p>Join Our Dynamic Team and Grow Your Career
+                </p>
+                <p>FlexCribe is seeking talented and motivated individuals to join our team in the exciting field of online work and transcription. As a member of our dynamic team, you will have the opportunity to work on a variety of projects, from transcribing and performing tasks to feeding AI. You will receive ongoing training and development opportunities and be part of a supportive and collaborative environment.
+                </p>
+                <p>We are looking for individuals who are proficient in any language and have a detail-oriented approach to work. If you are ready to grow your career and take on exciting challenges, join FlexCribe today!
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Copyright -->
+        <div class="copyrightText">
+            <p>Copyright &copy; 2020 Ahmed Gamal</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript">
+
+        // window.addEventListener('scroll', function(){
+        //     const header = document.querySelector('header');
+        //     header.classList.toggle("sticky", window.scrollY > 0);
+        // });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>
